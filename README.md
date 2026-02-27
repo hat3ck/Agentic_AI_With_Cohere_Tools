@@ -36,8 +36,7 @@ The system is designed with extensibility in mind — new LLM providers and tool
     ```
 
 4.  Set up environment variables:
-    This project uses .env files for configuration. For convenience in this assignment, .env files are included in the repo.
-    Normally you should not commit .env files with secrets.
+    This project uses .env files for local execution.
 
 5.  Run database migrations (if needed):
 
@@ -58,14 +57,7 @@ The system is designed with extensibility in mind — new LLM providers and tool
    ```
 
 7. Access the API documentation at `http://localhost:8000/docs`
-
-## Video Walkthrough
-
-A short video explaining the code and design decisions can be found here:
-
-[Watch the Video Walkthrough](https://drive.google.com/file/d/1Qk7PxUI0H4SL3AeNIOXAySVwx53FjOqR/view?usp=sharing)
-
-
+   
 # Design Decisions & Limitations
 
 **Database choice**:
